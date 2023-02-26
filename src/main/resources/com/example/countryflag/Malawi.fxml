@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: PURPLE;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.countryflag.Malawi">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="105.0" prefWidth="207.0" style="-fx-background-color: blue;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#020b14" height="36.0" layoutX="-1.0" stroke="#020b14" strokeType="INSIDE" width="219.0" />
+            <Circle fill="#ff403a" layoutX="102.0" layoutY="36.0" radius="30.0" stroke="#ff403a" strokeType="INSIDE" />
+            <Circle fill="#ff403a" layoutX="102.0" layoutY="40.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff403a" height="36.0" layoutX="-1.0" layoutY="34.0" stroke="#ff403a" strokeType="INSIDE" width="219.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#07961d" height="36.0" layoutX="-1.0" layoutY="69.0" stroke="#07961d" strokeType="INSIDE" width="219.0" />
+            <Line endX="109.0" layoutX="102.0" layoutY="32.0" startX="-100.0" strokeWidth="6.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

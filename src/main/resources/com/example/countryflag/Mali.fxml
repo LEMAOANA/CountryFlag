@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: purple;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.countryflag.Mali">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="109.0" prefWidth="214.0" style="-fx-background-color: blue;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f16034" height="109.0" layoutX="144.0" stroke="#f16034" strokeType="INSIDE" width="73.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe736" height="109.0" layoutX="72.0" stroke="#ffe736" strokeType="INSIDE" width="73.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#50d60d" height="109.0" stroke="#50d60d" strokeType="INSIDE" width="73.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

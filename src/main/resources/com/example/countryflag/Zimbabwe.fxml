@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: purple;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.countryflag.Zimbabwe">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="109.0" prefWidth="219.0" style="-fx-background-color: BLUE;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#107207" height="15.0" stroke="#107207" strokeType="INSIDE" width="219.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#101010" height="19.0" layoutY="45.0" stroke="#101010" strokeType="INSIDE" width="219.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffed33" height="15.0" layoutY="15.0" stroke="#ffed33" strokeType="INSIDE" width="219.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a41500" height="15.0" layoutY="30.0" stroke="#a41500" strokeType="INSIDE" width="219.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#107207" height="15.0" layoutY="94.0" stroke="#107207" strokeType="INSIDE" width="219.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffed33" height="15.0" layoutY="79.0" stroke="#ffed33" strokeType="INSIDE" width="219.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a41500" height="15.0" layoutY="64.0" stroke="#a41500" strokeType="INSIDE" width="219.0" />
+            <Line endX="-76.0" endY="-38.0" layoutX="129.0" layoutY="94.0" startX="-124.0" startY="-91.0" strokeWidth="6.0" />
+            <Line endX="-1.0" endY="21.0" layoutX="53.0" layoutY="37.0" startX="-50.0" startY="67.5" strokeWidth="6.0" />
+            <Polyline fill="WHITE" layoutX="23.0" layoutY="-24.0" points="-23.0, 24.0, 25.0, 80.0, -23.0, 126.0, -23.0, 24.0" strokeType="INSIDE" strokeWidth="0.0" />
+         </children>
+      </AnchorPane>
+      <Polygon fill="#a41500" layoutX="24.0" layoutY="64.0" points="-10.0, -11.0, 17.0, 16.0, 17.0, -4.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#a41500" layoutX="40.0" layoutY="115.0" points="-7.5, -56.0, -16.0, -39.0, 8.0, -56.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#a41500" layoutX="31.0" layoutY="63.0" points="-17.0, 8.0, 18.0, 8.0, 6.0, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>
